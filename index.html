@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bowen Zhang is a Lecturer and Master's Supervisor at the School of Economics and Management, Beijing University of Chemical Technology. His research focuses on data analytics and optimization, smart urban transportation management, and facility location theory, methods and applications.">
+  <meta name="theme-color" content="#224b8d">
+  <title>Bowen Zhang · Academic Homepage</title>
+  <style>
+    :root{--blue:#224b8d;--ink:#29333f;--muted:#66717d;--line:#e4e9ee;--soft:#f5f7fa}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;color:var(--ink);background:#fff;font:16px/1.8 'Trebuchet MS',Arial,'Microsoft YaHei',sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible{outline:3px solid #75a7e5;outline-offset:4px}button{font:inherit}::selection{background:#dbe8f8}.skip-link{position:fixed;top:-60px;left:12px;background:#fff;padding:8px 18px;z-index:20}.skip-link:focus{top:8px}
+    .masthead{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10;background:rgba(255,255,255,.97)}.masthead-inner{max-width:1160px;margin:auto;min-height:74px;padding:12px 28px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{font-size:19px;font-weight:700;letter-spacing:.01em;color:var(--ink);white-space:nowrap}.brand small{font-size:12px;font-weight:400;display:block;letter-spacing:.08em;color:var(--muted);line-height:1.2}.nav{display:flex;gap:25px;flex-wrap:wrap}.nav a{font-size:14px;color:#46505c}.nav a:hover{color:var(--blue)}
+    .layout{max-width:1160px;margin:0 auto;padding:48px 28px 64px;display:grid;grid-template-columns:222px minmax(0,1fr);gap:56px}.profile{align-self:start;position:sticky;top:116px}.avatar{width:174px;height:174px;border-radius:50%;background:#eef3f9;position:relative;overflow:hidden;margin:0 0 22px}.avatar-fallback{position:absolute;inset:0;display:grid;place-items:center;font:54px Georgia,serif;color:var(--blue)}.avatar img{position:relative;width:100%;height:100%;object-fit:cover;object-position:center 28%;display:block;background:#fff}.profile h1{font-size:27px;line-height:1.25;margin:0 0 5px;letter-spacing:.06em}.english-name{font-size:19px;color:#596778;margin:0 0 14px;line-height:1.4}.position{font-size:14px;margin:0 0 12px}.affiliation{font-size:14px;line-height:1.8;margin:0;color:var(--muted)}.profile-links{list-style:none;margin:21px 0 0;padding:0;border-top:1px solid var(--line);padding-top:17px}.profile-links li{font-size:13px;line-height:1.8;margin:9px 0;display:flex;align-items:flex-start;gap:9px;overflow-wrap:anywhere}.profile-links svg{width:16px;height:16px;flex:none;margin-top:4px;fill:none;stroke:currentColor;stroke-width:1.7;color:#7a8591}.profile-caption{margin-top:20px;font-size:11px;color:#87919c}
+    main{min-width:0}section{margin:0 0 42px;scroll-margin-top:100px}.section-heading{display:flex;align-items:baseline;gap:13px;margin:0 0 19px;padding-bottom:10px;border-bottom:1px solid var(--line)}.section-heading h2{font-size:23px;line-height:1.4;font-weight:700;margin:0}.section-heading span{font-size:12px;color:#8b949f;letter-spacing:.04em}p{margin:0 0 13px}.intro p{line-height:1.95}.intro strong{font-weight:700}.invite{margin-top:20px;padding:13px 18px;border-left:3px solid var(--blue);background:var(--soft);font-size:14px;line-height:1.9}.invite a{white-space:nowrap}.research-list{margin:0;padding-left:20px}.research-list li{margin:10px 0;padding-left:4px}.research-list strong{font-weight:700}.research-list span{color:var(--muted);font-size:14px;display:block}
+    .publication-meta{font-size:12px;color:var(--muted);margin-top:-7px;margin-bottom:15px}.filters{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:19px}.filter{border:1px solid #dce3ec;padding:3px 11px;cursor:pointer;color:#596675;background:#fff;border-radius:3px;font-size:12px;line-height:1.7}.filter[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}.filter:hover{border-color:var(--blue)}.publication-list{list-style:none;padding:0;margin:0}.publication{display:grid;grid-template-columns:43px minmax(0,1fr);gap:13px;padding:19px 0;border-bottom:1px solid #edf0f3}.publication:first-child{padding-top:2px}.publication[hidden]{display:none}.pub-year{font-size:12px;color:#788694;padding-top:3px;font-variant-numeric:tabular-nums}.publication h3{font-size:16px;line-height:1.55;color:#213d66;margin:0 0 7px;font-weight:600}.authors{font-size:13px;line-height:1.8;color:#66717e;margin-bottom:3px}.authors strong{color:#303c49;font-weight:700}.venue{font-size:13px;line-height:1.7;color:#566371;margin:0;font-style:italic}.pub-links{display:flex;gap:15px;margin-top:8px;font-size:12px}.pub-note{font-size:11px;line-height:1.7;color:#87909c;margin:5px 0 0}.filter-status{font-size:12px;color:var(--muted);margin:0 0 14px}
+    .subheading{font-size:16px;margin:22px 0 12px;font-weight:700}.plain-list{padding-left:20px;margin:0}.plain-list li{font-size:14px;line-height:1.9;margin:8px 0;padding-left:3px}.plain-list .secondary{color:var(--muted)}.timeline{list-style:none;padding:0;margin:0}.timeline li{display:grid;grid-template-columns:130px minmax(0,1fr);gap:17px;margin:15px 0;font-size:14px}.timeline time{color:#758190;font-size:13px;font-variant-numeric:tabular-nums}.timeline small{display:block;color:var(--muted);font-size:13px}.detail-summary{cursor:pointer;color:var(--blue);font-size:13px;margin:16px 0 13px}details{padding:0}details[open]{padding-bottom:1px}.achievement{font-size:14px;margin-bottom:14px}.achievement strong{font-weight:600}.footer{max-width:1160px;margin:auto;padding:25px 28px;border-top:1px solid var(--line);font-size:12px;color:#7d8894;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer a{color:#63758c}.contact-note{color:var(--muted);font-size:14px}.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:900px){.layout{grid-template-columns:190px minmax(0,1fr);gap:30px}.masthead-inner{padding-inline:22px}.nav{gap:14px}.avatar{width:150px;height:150px}.profile-links li{font-size:12px}.layout{padding-inline:22px}}
+    @media(max-width:680px){html{scroll-padding-top:113px}.masthead-inner{display:block;padding:14px 20px 12px;min-height:auto}.brand small{display:inline;margin-left:8px;font-size:10px}.nav{margin-top:12px;gap:20px;flex-wrap:nowrap;overflow:auto;white-space:nowrap;padding-bottom:2px}.nav a{font-size:12px}.layout{display:block;padding:28px 20px 38px}.profile{position:static;margin-bottom:35px;display:grid;grid-template-columns:92px minmax(0,1fr);gap:0 18px}.avatar{width:92px;height:92px;margin:0;grid-row:1/6}.avatar-fallback{font-size:34px}.profile h1{font-size:23px}.english-name{font-size:16px;margin-bottom:6px}.position{font-size:12px;margin-bottom:5px}.affiliation{font-size:12px;line-height:1.6}.profile-links{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:0 19px;margin-top:17px;padding-top:9px}.profile-links li{font-size:12px;margin:6px 0}.profile-caption{display:none}.section-heading{gap:9px}.section-heading h2{font-size:21px}.section-heading span{font-size:11px}.timeline li{grid-template-columns:102px minmax(0,1fr);gap:10px}.timeline time{font-size:11px}.publication{grid-template-columns:32px minmax(0,1fr);gap:10px}.publication h3{font-size:15px}.footer{padding:22px 20px;font-size:11px}.intro p{font-size:15px}section{margin-bottom:35px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="masthead"><div class="masthead-inner">
+  <a class="brand" href="#about">Bowen Zhang<small>ACADEMIC HOMEPAGE</small></a>
+  <nav class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#experience">Background</a></nav>
+</div></header>
+<div class="layout">
+<aside class="profile" aria-label="Personal profile">
+  <div class="avatar"><span class="avatar-fallback" aria-hidden="true">BZ</span><img src="https://sem.buct.edu.cn/_upload/article/images/03/f6/2e2c05004044b1387bf53054e1b4/91f255ca-1b47-4b10-aaf8-70054fd26469.jpg" alt="Bowen Zhang" width="174" height="174" onerror="this.remove()"></div>
+  <h1>Bowen Zhang</h1><p class="english-name">Ph.D. in Management</p>
+  <p class="position">Lecturer and Master's Supervisor</p>
+  <p class="affiliation">School of Economics and Management<br>Beijing University of Chemical Technology<br>Management Science and Engineering</p>
+  <ul class="profile-links">
+    <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Room 241, Wenli Building, Changping Campus</span></li>
+    <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><a href="mailto:zhangbowen@buct.edu.cn">zhangbowen@buct.edu.cn</a></li>
+    <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5-7 7 7 7m8-14 7 7-7 7m-3-17-2 20"/></svg><a href="https://github.com/bowen-buct" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 8 10-5 10 5-10 5L2 8Zm4 3v7c4 3 8 3 12 0v-7m4-3v10"/></svg><a href="https://sem.buct.edu.cn/2023/1011/c10400a182562/page.htm" target="_blank" rel="noopener noreferrer">University Profile</a></li>
+  </ul><p class="profile-caption">Beijing University of Chemical Technology</p>
+</aside>
+<main id="main">
+  <section id="about" class="intro"><div class="section-heading"><h2>About Me</h2></div>
+    <p>I am <strong>Bowen Zhang</strong>, a Lecturer and Master's Supervisor at the School of Economics and Management, Beijing University of Chemical Technology.</p>
+    <p>My research focuses on <strong>data analytics and optimization, smart urban transportation management, and facility location theory, methods and applications</strong>. My work covers bike-sharing operations and rebalancing, public transportation optimization, electric vehicle battery swapping station location, and network optimization under uncertainty.</p>
+    <p>I received my Ph.D. in Management from Beijing University of Chemical Technology in 2023. I undertook government-funded joint doctoral training in Statistics and Operations Research at the University of Lisbon, and conducted postdoctoral research at the School of Information Science and Technology, Beijing University of Chemical Technology, from 2023 to 2025.</p>
+    <div class="invite">I welcome inquiries from prospective graduate students interested in data analytics, operations research and optimization, smart transportation, and intelligent optimization algorithms. A foundation in mathematics and programming, an interest in exploring research problems, and a willingness to develop academic reading and writing skills in English are encouraged. <a href="mailto:zhangbowen@buct.edu.cn">Get in touch →</a></div>
+  </section>
+  <section id="research"><div class="section-heading"><h2>Research Interests</h2></div>
+    <ul class="research-list"><li><strong>Data Analytics and Optimization</strong></li><li><strong>Smart Urban Transportation Management</strong></li><li><strong>Facility Location: Theory, Methods and Applications</strong></li></ul>
+  </section>
+  <section id="publications"><div class="section-heading"><h2>Publications</h2></div>
+    <p class="publication-meta">Publication years follow the publisher's final volume and issue. My name is shown in bold.</p>
+    <div class="filters" role="group" aria-label="Filter publications by year"><button class="filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="2026" aria-pressed="false">2026</button><button class="filter" type="button" data-filter="2025" aria-pressed="false">2025</button><button class="filter" type="button" data-filter="2024" aria-pressed="false">2024</button><button class="filter" type="button" data-filter="2023" aria-pressed="false">2023</button><button class="filter" type="button" data-filter="2022" aria-pressed="false">2022</button><button class="filter" type="button" data-filter="2021" aria-pressed="false">2021</button><button class="filter" type="button" data-filter="2020" aria-pressed="false">2020</button></div>
+    <p class="filter-status" id="filter-status" aria-live="polite">15 publications</p>
+    <ol class="publication-list"><li class="publication" data-year="2026">
+  <span class="pub-year">2026</span><div class="pub-body">
+  <h3>Multi-stage facility location and transshipment design for coal railway transport systems: A LLM-augmented optimization approach</h3>
+  <p class="authors">Xiang Li, Jiayi Yu, <strong>Bowen Zhang</strong>, Francisco Saldanha-da-Gama, and Ziyan Feng</p>
+  <p class="venue">Computers &amp; Industrial Engineering 219 (September 2026): 112174</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.cie.2026.112174" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Multi-stage%20facility%20location%20and%20transshipment%20design%20for%20coal%20railway%20transport%20systems%3A%20A%20LLM-augmented%20optimization%20approach" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2026">
+  <span class="pub-year">2026</span><div class="pub-body">
+  <h3>Flexible scheduling of customized bus for green mega-events: A distributionally robust optimization approach</h3>
+  <p class="authors">An, Xiaojie, Xiang Li, and <strong>Bowen Zhang</strong></p>
+  <p class="venue">Computers &amp; Operations Research 185 (January 2026): 107249</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.cor.2025.107249" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Flexible%20scheduling%20of%20customized%20bus%20for%20green%20mega-events%3A%20A%20distributionally%20robust%20optimization%20approach" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2026">
+  <span class="pub-year">2026</span><div class="pub-body">
+  <h3>Managing Lead Times and Backlogging in a Resilient Distribution Network under Demand Uncertainty</h3>
+  <p class="authors"><strong>Zhang, Bowen</strong>, Ines Mendes Coelho, and Francisco Saldanha-da-Gama</p>
+  <p class="venue">International Journal of General Systems 55(6) (2026): 737–772</p>
+  <div class="pub-links"><a href="https://doi.org/10.1080/03081079.2025.2497794" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Managing%20Lead%20Times%20and%20Backlogging%20in%20a%20Resilient%20Distribution%20Network%20under%20Demand%20Uncertainty" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2025">
+  <span class="pub-year">2025</span><div class="pub-body">
+  <h3>Probing into the role of leadership in team performance: The significance of internal marketing in higher education institutions</h3>
+  <p class="authors">Manzoor, Amna, and <strong>Bowen Zhang</strong></p>
+  <p class="venue">Journal of Data, Information and Management 7(1) (March 2025): 37–50</p>
+  <div class="pub-links"><a href="https://doi.org/10.1007/s42488-024-00138-9" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Probing%20into%20the%20role%20of%20leadership%20in%20team%20performance%3A%20The%20significance%20of%20internal%20marketing%20in%20higher%20education%20institutions" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2024">
+  <span class="pub-year">2024</span><div class="pub-body">
+  <h3>Dealing with congestion in the optimization of locating single-server battery swapping stations</h3>
+  <p class="authors"><strong>Zhang, Bowen</strong>, Xiang Li, and Francisco Saldanha-da-Gama</p>
+  <p class="venue">Information Sciences 666 (May 2024): 120426</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.ins.2024.120426" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Dealing%20with%20congestion%20in%20the%20optimization%20of%20locating%20single-server%20battery%20swapping%20stations" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2024">
+  <span class="pub-year">2024</span><div class="pub-body">
+  <h3>Minimizing passenger waiting time in the multi-route bus fleet allocation problem through distributionally robust optimization and reinforcement learning</h3>
+  <p class="authors">Li, Xiang, Xiaojie An, and <strong>Bowen Zhang</strong></p>
+  <p class="venue">Computers &amp; Operations Research 164 (April 2024): 106568</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.cor.2024.106568" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Minimizing%20passenger%20waiting%20time%20in%20the%20multi-route%20bus%20fleet%20allocation%20problem%20through%20distributionally%20robust%20optimization%20and%20reinforcement%20learning" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2024">
+  <span class="pub-year">2024</span><div class="pub-body">
+  <h3>Knock-in Options of Mean-Reverting Stock Model with Floating Interest Rate in Uncertain Environment</h3>
+  <p class="authors">Jia, Lifen, Dongao Li, Fengjia Guo and <strong>Bowen Zhang</strong></p>
+  <p class="venue">International Journal of General Systems 53(3) (2024): 331–351</p>
+  <div class="pub-links"><a href="https://doi.org/10.1080/03081079.2023.2276703" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Knock-in%20Options%20of%20Mean-Reverting%20Stock%20Model%20with%20Floating%20Interest%20Rate%20in%20Uncertain%20Environment" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2024">
+  <span class="pub-year">2024</span><div class="pub-body">
+  <h3>Revising the links of Knowledge-oriented leadership on innovation in higher education institutions: the mediating role of knowledge sharing</h3>
+  <p class="authors">Manzoor, Amna, and <strong>Bowen Zhang</strong></p>
+  <p class="venue">Journal of Data, Information and Management 6(2) (June 2024): 149–160</p>
+  <div class="pub-links"><a href="https://doi.org/10.1007/s42488-024-00120-5" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Revising%20the%20links%20of%20Knowledge-oriented%20leadership%20on%20innovation%20in%20higher%20education%20institutions%3A%20the%20mediating%20role%20of%20knowledge%20sharing" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2023">
+  <span class="pub-year">2023</span><div class="pub-body">
+  <h3>Neural Network-Based Subway Regenerative Energy Optimization With Variable Headway Constraints</h3>
+  <p class="authors">Li, Xiang, Zhaohua Pan, Hongguang Ma, and <strong>Bowen Zhang</strong></p>
+  <p class="venue">IEEE Transactions on Intelligent Transportation Systems 24(9) (2023): 9698–9711</p>
+  <div class="pub-links"><a href="https://scholar.google.com/scholar?q=Neural%20Network-Based%20Subway%20Regenerative%20Energy%20Optimization%20With%20Variable%20Headway%20Constraints" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2022">
+  <span class="pub-year">2022</span><div class="pub-body">
+  <h3>Free-floating bike-sharing systems: New repositioning rules, optimization models and solution algorithms</h3>
+  <p class="authors"><strong>Zhang, Bowen</strong>, Xiang Li, and Francisco Saldanha-da-Gama</p>
+  <p class="venue">Information Sciences 600 (July 2022): 239–262</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.ins.2022.03.028" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Free-floating%20bike-sharing%20systems%3A%20New%20repositioning%20rules%2C%20optimization%20models%20and%20solution%20algorithms" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2022">
+  <span class="pub-year">2022</span><div class="pub-body">
+  <h3>A study of highway logistics transportation network structure in China: From the perspective of complex network</h3>
+  <p class="authors">Ma, Hongguang, Jiaming Liu, Xiande Zhao, and <strong>Bowen Zhang</strong></p>
+  <p class="venue">Journal of Data, Information and Management 4(2) (June 2022): 89–105</p>
+  <div class="pub-links"><a href="https://doi.org/10.1007/s42488-022-00072-8" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=A%20study%20of%20highway%20logistics%20transportation%20network%20structure%20in%20China%3A%20From%20the%20perspective%20of%20complex%20network" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2021">
+  <span class="pub-year">2021</span><div class="pub-body">
+  <h3>Rebalancing stochastic demands for bike-sharing networks with multi-scenario characteristics</h3>
+  <p class="authors">Ma, Guanhua, <strong>Bowen Zhang</strong>, Changjing Shang, and Qiang Shen</p>
+  <p class="venue">Information Sciences 554 (April 2021): 177–197</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.ins.2020.12.044" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Rebalancing%20stochastic%20demands%20for%20bike-sharing%20networks%20with%20multi-scenario%20characteristics" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2021">
+  <span class="pub-year">2021</span><div class="pub-body">
+  <h3>A little bit flexibility on headway distribution is enough: Data-driven optimization of subway regenerative energy</h3>
+  <p class="authors">Li, Xiang, <strong>Bowen Zhang</strong>, and Yunan Liu</p>
+  <p class="venue">Information Sciences 554 (April 2021): 276–296</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.ins.2020.12.030" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=A%20little%20bit%20flexibility%20on%20headway%20distribution%20is%20enough%3A%20Data-driven%20optimization%20of%20subway%20regenerative%20energy" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2021">
+  <span class="pub-year">2021</span><div class="pub-body">
+  <h3>A hybrid multi-objective approach for real-time flexible production scheduling and rescheduling under dynamic environment in Industry 4.0 context</h3>
+  <p class="authors">Zhang, Sicheng, Fangcheng Tang, Xiang Li, Jiaming Liu, and <strong>Bowen Zhang</strong></p>
+  <p class="venue">Computers &amp; Operations Research 132 (August 2021): 105267</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.cor.2021.105267" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=A%20hybrid%20multi-objective%20approach%20for%20real-time%20flexible%20production%20scheduling%20and%20rescheduling%20under%20dynamic%20environment%20in%20Industry%204.0%20context" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li>
+<li class="publication" data-year="2020">
+  <span class="pub-year">2020</span><div class="pub-body">
+  <h3>Multi-objective optimisation in flexible assembly job shop scheduling using a distributed ant colony system</h3>
+  <p class="authors">Zhang, Sicheng, Xiang Li, <strong>Bowen Zhang</strong>, and Shouyang Wang</p>
+  <p class="venue">European Journal of Operational Research 283(2) (June 2020): 441–460</p>
+  <div class="pub-links"><a href="https://doi.org/10.1016/j.ejor.2019.11.016" target="_blank" rel="noopener noreferrer">Paper / DOI <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/scholar?q=Multi-objective%20optimisation%20in%20flexible%20assembly%20job%20shop%20scheduling%20using%20a%20distributed%20ant%20colony%20system" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div></li></ol>
+  </section>
+  <section id="projects"><div class="section-heading"><h2>Research Projects</h2></div>
+    <h3 class="subheading">Projects Led</h3><ul class="plain-list">
+      <li>Government–enterprise collaboration in the operation and maintenance of multimodal bike-sharing services around Beijing subway stations <span class="secondary">· Beijing Social Science Fund, Young Scholars Program</span></li>
+      <li>Coordinated supply and dynamic pricing of reserved spaces in smart parking facilities <span class="secondary">· National Funding Program for Postdoctoral Researchers, Category B</span></li>
+      <li>2025 research performance evaluation funding under the National Funding Program for Postdoctoral Researchers</li>
+      <li>Data-driven location and scheduling optimization for electric vehicle battery swapping stations <span class="secondary">· China Scholarship Council, Government-funded Overseas Study Program</span></li>
+      <li>Intelligent bike-sharing rebalancing through integrated prediction and decision-making <span class="secondary">· Fundamental Research Funds for the Central Universities, Exploratory Research Program</span></li>
+    </ul>
+    <details><summary class="detail-summary">Collaborative Projects (4)</summary><ul class="plain-list">
+      <li>Theory and methods for urban regional transportation operations management within the "Metro+" framework <span class="secondary">· National Natural Science Foundation of China, International (Regional) Cooperation and Exchange Program</span></li>
+      <li>Theory and methods for managing shared transportation services <span class="secondary">· National Natural Science Foundation of China, Key Program</span></li>
+      <li>Subway energy-saving management <span class="secondary">· National Natural Science Foundation of China, Excellent Young Scientists Fund</span></li>
+      <li>Big data-driven collaborative decision-making methods and applications for urban transportation <span class="secondary">· National Ten Thousand Talents Program, Young Top-notch Talent Project</span></li>
+    </ul></details>
+  </section>
+  <section id="experience"><div class="section-heading"><h2>Education and Experience</h2></div>
+    <h3 class="subheading">Academic Appointments</h3><ul class="timeline">
+      <li><time>Jun 2023 — Present</time><div>School of Economics and Management, Beijing University of Chemical Technology<small>Lecturer</small></div></li>
+      <li><time>Jun 2023 — Oct 2025</time><div>School of Information Science and Technology, Beijing University of Chemical Technology<small>Postdoctoral Researcher</small></div></li>
+    </ul><h3 class="subheading">Education</h3><ul class="timeline">
+      <li><time>Sep 2018 — Jun 2023</time><div>Beijing University of Chemical Technology · Management Science and Engineering<small>Ph.D. in Management</small></div></li>
+      <li><time>Oct 2021 — Oct 2022</time><div>University of Lisbon · Statistics and Operations Research<small>Government-funded joint doctoral training</small></div></li>
+      <li><time>Sep 2016 — Jun 2018</time><div>Beijing University of Chemical Technology · Management Science and Engineering<small>Combined master's-to-doctoral program</small></div></li>
+    </ul>
+  </section>
+  <section id="honors"><div class="section-heading"><h2>Honors and Awards</h2></div><ul class="plain-list">
+    <li><strong>2025</strong> · Outstanding Project Award, National Postdoctoral Innovation and Entrepreneurship Competition</li>
+    <li><strong>2024</strong> · Outstanding Postdoctoral Researcher, Beijing University of Chemical Technology</li>
+    <li><strong>2019</strong> · Best Presentation Award, Annual Conference of the Beijing Systems Engineering Society</li>
+    <li><strong>2019</strong> · Best Student Paper Award, International Conference on Intelligent Transportation and Logistics with Big Data &amp; 7th International Forum on Decision Sciences</li>
+  </ul></section>
+  <section id="service"><div class="section-heading"><h2>Conference Talks and Academic Service</h2></div><ul class="plain-list">
+    <li><strong>Dec 2024</strong> · International Conference on Intelligent Transportation and Logistics with Big Data &amp; 12th International Forum on Decision Sciences, Xi'an, China <span class="secondary">· Conference Secretary-General</span></li>
+    <li><strong>Jun 2024</strong> · Distribution network design for MSEs: Hedging against uncertainty, EWGLA XXIX, Sheffield, United Kingdom <span class="secondary">· Conference presentation and session chair</span></li>
+    <li><strong>Sep 2022</strong> · Dealing with congestion in the battery swapping station location problem, EWGLA XXVII, Aveiro, Portugal <span class="secondary">· Conference presentation</span></li>
+  </ul></section>
+  <section id="outputs"><div class="section-heading"><h2>Book and Research Outputs</h2></div>
+    <p class="achievement">Xiang Li, Xiaofeng Xu, and <strong>Bowen Zhang</strong>. <em>A Course in Operations Research</em>. Science Press. An undergraduate textbook under China's 14th Five-Year Plan.</p>
+    <details><summary class="detail-summary">Patents (7)</summary><ul class="plain-list">
+      <li>A bike-sharing rebalancing optimization method based on adaptive neighborhood search <span class="secondary">· ZL202110289562.2</span></li>
+      <li>An electric vehicle battery swapping station location optimization method with controllable average waiting time <span class="secondary">· ZL202210974374.8</span></li>
+      <li>A big data-based method and system for optimizing free-floating bike-sharing operations and scheduling <span class="secondary">· ZL202111048893.3</span></li>
+      <li>A hybrid optimization method for flexible assembly job shop scheduling <span class="secondary">· ZL202010446415.7</span></li>
+      <li>A shared electric vehicle operations optimization method combining column generation and ant colony algorithms <span class="secondary">· ZL202111205484.X</span></li>
+      <li>An air–ground integrated rescue vehicle routing optimization method for forest fire prevention <span class="secondary">· ZL202310265831.0</span></li>
+      <li>A subway collision-avoidance timetable optimization method based on a hybrid intelligent algorithm <span class="secondary">· ZL202210514180.X</span></li>
+    </ul></details>
+    <details><summary class="detail-summary">Software Copyrights (3)</summary><ul class="plain-list">
+      <li>Data-driven bike-sharing rebalancing optimization system V1.0 <span class="secondary">· 2021SR0209898</span></li>
+      <li>Data-driven urban rail transit regenerative energy optimization system V1.0 <span class="secondary">· 2021SR0189194</span></li>
+      <li>Urban traffic speed pattern analysis and real-time prediction system V1.0 <span class="secondary">· 2021SR0179611</span></li>
+    </ul></details>
+  </section>
+  <section id="contact"><div class="section-heading"><h2>Contact</h2></div><p><a href="mailto:zhangbowen@buct.edu.cn">zhangbowen@buct.edu.cn</a></p><p class="contact-note">Room 241, Wenli Building, Changping Campus<br>Beijing University of Chemical Technology</p></section>
+</main></div>
+<footer class="footer"><span>© 2026 Bowen Zhang</span><span>Source: <a href="https://sem.buct.edu.cn/2023/1011/c10400a182562/page.htm" target="_blank" rel="noopener noreferrer">University Profile</a> · Updated October 2026</span></footer>
+<script>
+  const filters = document.querySelectorAll('.filter');
+  const publications = [...document.querySelectorAll('.publication')];
+  filters.forEach(button => button.addEventListener('click', () => {
+    const year = button.dataset.filter;
+    filters.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    publications.forEach(item => { item.hidden = year !== 'all' && item.dataset.year !== year; });
+    const count = publications.filter(item => !item.hidden).length;
+    document.getElementById('filter-status').textContent = (year === 'all' ? '' : year + ' · ') + count + (count === 1 ? ' publication' : ' publications');
+  }));
+</script>
+</body></html>
